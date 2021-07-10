@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+  
+  
+<style>
+body {
+    background-image: url(https://ae01.alicdn.com/kf/Ha774af5a86bd4698916834101ca3a73aB/Cute-Japanese-Women-Silky-Sleepwear-Deep-V-Side-Split-Sexy-Strap-Nightgowns-Water-Soluble-Flower-Lace.jpg_Q90.jpg_.webp);
+    background-size: initial;
+}
+
+.video-play-button {
+  display: block;
+  width: 104px;
+  height: 104px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -52px 0 0 -52px;
+  cursor: pointer;
+}
+
+.video-play-outline {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border: #FFF 4px solid;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  transition:all .5s;
+}
+
+.video-play-circle {
+  stroke-dasharray: 315;
+  stroke-dashoffset: 315;
+  transition: stroke-dashoffset .5s;
+}
+
+.video-play-button svg {
+  display: block;
+  transform: rotate(-90deg);
+  transition: transform .3s;
+}
+
+.video-play-button:hover .video-play-circle {
+  stroke-dashoffset: 0;
+}
+
+.video-play-button:active .video-play-outline {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.video-play-button:active svg {
+  transform: rotate(-90deg) scale(.95);
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <a class="video-play-button">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
+  <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M26,35h52L52,81L26,35z"/>
+  <circle class="video-play-circle" fill="none" stroke="#DA3D25" stroke-width="4" stroke-miterlimit="10" cx="52" cy="52" r="50"/>
+  </svg>
+  <span class="video-play-outline"></span>
+</a>
+  
+  
+  
+  
+
+</body>
+
+</html>
+ 
